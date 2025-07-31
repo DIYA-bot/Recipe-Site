@@ -48,7 +48,19 @@ body{
             padding:10px 30px;
             background: rgb(246, 53, 53);
         }
-        .leftBars a,.rightBars a{
+.rightBars a{
+            height:1.5em;
+            width:4.5em;
+            border:none;
+            border-radius: 10px;
+            margin-top:5px;
+            background: linear-gradient(to right,rgb(168, 46, 46),rgb(189, 7, 7));
+        }
+.rightBars a:hover{
+            border:1px solid rgb(238, 153, 153);
+        }
+        
+        .leftBars a{
             position: relative;
             display: inline-block;
             margin:0 10px;
@@ -59,7 +71,7 @@ body{
             text-decoration: none;
 
         }
-        .leftBars a::after,.rightBars a::after{
+        .leftBars a::after{
             content:'';
             position: absolute;
             left:0;
@@ -69,7 +81,7 @@ body{
             background-color: rgb(206, 198, 198);
             transition: width 0.4s ease-in-out;
         }
-        .leftBars a:hover::after,.rightBars a:hover::after{
+        .leftBars a:hover::after{
             width:100%;
         }
         .chefHat{
