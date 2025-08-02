@@ -219,7 +219,7 @@ body{
             background-color: rgb(179, 0, 0);
             transform: translateY(-2px);
         }
-        .recipe-section,.about-section {
+        .recipe-section,.about-section,#feedbackForm  {
             padding: 40px 20px;
             max-width: 1200px;
             margin: 20px auto;
@@ -227,7 +227,7 @@ body{
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
-        .recipe-section h2, .about-section h2 {
+        .recipe-section h2, .about-section h2 ,#feedbackForm h2{
             text-align: center;
             margin-bottom: 30px;
             color: rgb(51, 51, 51);
@@ -239,6 +239,45 @@ body{
             margin-right: auto;
             width: fit-content;
         }
+#feedbackForm input{
+           background: rgb(247, 178, 178);
+           outline: none;
+           border:1px solid red;
+           border-radius:5px;
+           margin:0.5rem 23rem;
+           width:20rem;
+           height:1.2rem;
+        }
+        #feedbackForm label{
+            color:rgb(250, 223, 223);
+           margin:0.5rem 23rem;
+           font-size:large;
+        }
+        #feedbackForm input::placeholder{
+            color:rgb(118, 113, 113);
+            margin: 2rem;
+            padding:1rem 0.5rem;
+        }
+        
+        #feedbackForm input[type="submit"]{
+            width:5rem;
+           height:1.8rem;
+           margin:1rem 30rem;
+           text-align: center;
+           justify-content: center;
+           background: red;
+           color:white;
+        }
+        #feedbackForm input[id="queryBox"]{
+          background: rgb(247, 178, 178);
+           outline: none;
+           border:1px solid red;
+           border-radius:3px;
+           margin:0.5rem 23rem;
+           width:20rem;
+           height:3.5rem;
+        }
+       
 
         /* Recipe Grid */
         .recipe-grid {
@@ -446,4 +485,5 @@ body{
     flex-wrap: wrap;
     gap: 15px;
 }
+
 
