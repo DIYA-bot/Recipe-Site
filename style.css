@@ -30,7 +30,7 @@ body{
             animation-duration: 4s;
         }
         @keyframes heading{
-            0%{background: linear-gradient(to right ,rgb(174, 26, 6),rgb(121, 3, 3)); -webkit-background-clip:text;
+            0%{background: linear-gradient(to right ,rgb(217, 251, 67),rgb(215, 229, 26)); -webkit-background-clip:text;
             -webkit-text-fill-color:transparent;}
             25%{background: linear-gradient(to right ,rgb(249, 241, 87),rgb(219, 225, 41)); -webkit-background-clip:text;
             -webkit-text-fill-color:transparent;}
@@ -485,6 +485,7 @@ body{
     flex-wrap: wrap;
     gap: 15px;
 }
+
 
 
 
