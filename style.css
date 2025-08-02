@@ -82,7 +82,7 @@ body{
 
         }
         #hero {
-            background-color: rgb(188, 159, 139); 
+            background-color: rgb(251, 198, 188); 
             color: rgb(255, 255, 255);
             text-align: center;
             padding: 50px 20px;
@@ -107,7 +107,7 @@ body{
             display: block;
             z-index: 0; 
             overflow: hidden; 
-            background-color: rgb(188, 159, 139); 
+            background-color: rgb(251, 198, 188); 
         }
 
         /* Individual images within the collage */
@@ -485,6 +485,7 @@ body{
     flex-wrap: wrap;
     gap: 15px;
 }
+
 
 
 
