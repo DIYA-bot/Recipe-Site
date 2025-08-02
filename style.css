@@ -193,7 +193,7 @@ body{
         #hero h2 {
             font-size: 3.5em;
             margin-bottom: 15px;
-             background: linear-gradient(to right ,rgb(197, 233, 37),rgb(252, 230, 59),rgb(32, 225, 148));
+             background: linear-gradient(to right ,rgb(240, 240, 10),rgb(98, 197, 231));
             -webkit-background-clip:text;
             -webkit-text-fill-color:transparent;
             
@@ -485,5 +485,6 @@ body{
     flex-wrap: wrap;
     gap: 15px;
 }
+
 
 
